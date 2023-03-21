@@ -1,3 +1,7 @@
+Create the Infrastructure using Terraform repo https://github.com/maniaug81/aws-terraform-code
+It will deploy following AWS resources
+a. VPC, Subnets, IGW
+b. ASG, LB, EC2
 Perform below mentioned steps to create a Jenkins pipeline to create a Docker Container on every code commit. 
 1. Create Amazon linux machine on your AWS free tier account
 2. Install Jenkins, Docker and Git
@@ -15,4 +19,4 @@ Perform below mentioned steps to create a Jenkins pipeline to create a Docker Co
 10.Select on which events you want to trigger the Jenkins Job
 
 Make any changes in your github code and do a commit, it should trigger a Jenkins job
-    Adding a comment - this will be build#22
+    
