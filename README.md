@@ -25,6 +25,5 @@ Perform below mentioned steps to create a Jenkins pipeline to create a Docker Co
    a. Payload URL will have Jenkins URL in format http://<ip address>/github-webhook/
    b. Content-type should be selected as application/json
 10.Select on which events you want to trigger the Jenkins Job
-
 Make any changes in your github code and do a commit, it should trigger a Jenkins job.
     
