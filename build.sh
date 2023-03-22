@@ -1,4 +1,4 @@
-#This script will create a Docker image, remove old container and create a new container
+#This script will create a Docker image, remove old container and create a new container 
 #!/bin/bash
 image_tobe_deleted=$(($1 -1))
 docker build -t maniaug81/my-custom-todo:$1 .
